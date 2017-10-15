@@ -1,7 +1,8 @@
 # echarts_elastic
 一个echarts.js图表放大缩小插件
 index.html
-``<!doctype html>
+``
+<!doctype html>
 <html>
 	<head>
 		<title>vue+chart</title>
@@ -31,7 +32,8 @@ index.html
 		<button onclick='red()'>缩小</button>
 		<script src="js/script.js"></script>
 	</body>
-</html>``
+</html>
+``
 script.js文件
 ``		var myChart = echarts.init(document.getElementById('main'));
         var option/*这里只能使用option*/= {
