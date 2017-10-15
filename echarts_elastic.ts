@@ -34,6 +34,7 @@ class Elastic {
     }
     //重置容器,渲染图表
     show() {
+        //喜欢这种简单粗暴的方式
         this.container.innerHTML = '<div id="' + this.id + '" style="width:' + this.width + 'px;height:' + this.height + 'px"></div>';
         var myChart = echarts.init(document.getElementById(this.id));
         myChart.setOption(option);
