@@ -2,7 +2,7 @@
 一个echarts.js图表放大缩小插件
 index.html
 ``
-<!doctype html>
+    <!doctype html>
 <html>
 	<head>
 		<title>vue+chart</title>
@@ -35,7 +35,8 @@ index.html
 </html>
 ``
 script.js文件
-``		var myChart = echarts.init(document.getElementById('main'));
+``
+    var myChart = echarts.init(document.getElementById('main'));
         var option/*这里只能使用option*/= {
             title: {
                 text: 'ECharts 入门教程'
