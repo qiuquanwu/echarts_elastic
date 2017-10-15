@@ -35,7 +35,7 @@ index.html
 </html>
 ``
 script.js文件
-``
+``` javascript
     var myChart = echarts.init(document.getElementById('main'));
         var option/*这里只能使用option*/= {
             title: {
@@ -69,4 +69,4 @@ script.js文件
 		els.narrow();
 		//渲染图表
 		}
-``
+```
