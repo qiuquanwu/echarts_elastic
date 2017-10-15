@@ -6,8 +6,8 @@ index.html
 <html>
 	<head>
 		<title>vue+chart</title>
-		<script src="js/echarts.min.js"></script>
-		<script src="js/echarts_elastic.js"></script>
+		<script src="js/echarts.min.js"></script><!-- 引入echarts.js-->
+		<script src="js/echarts_elastic.js"></script><!-- 引入echarts_elastic插件-->
 		<style>
 			.chart{
 				margin:0 auto;
