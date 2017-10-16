@@ -1,8 +1,9 @@
 # echarts_elastic
 一个echarts.js图表放大缩小插件
-#采用typescript开发
+# 采用typescript开发
 源码和已转js的文件已上传
-#面向对象编程
+
+# 面向对象编程
 index.html
 ```html
 <!doctype html>
